@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./images/logo.png" alt="AnimeManga">
+        </div>
+        <div class="pages">
+            <ul>
+                <li class="menu"><a class="navLink" href="#">Home</a></li>
+                <li class="menu"><a class="navLink" href="#">Featured</a></li>
+                <li class="menu"><a class="navLink" href="#">Reviews</a></li>
+                <li onclick="showSidebar()" class="menu-open"><a class="navLink" href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="sideBar">
+        <ul>
+            <li onclick="hideSidebar()" class="menu-close"><a class="navLink" href="#"><i class="fa-solid fa-xmark"></i></a></li>
+            <li class="sideMenu"><a class="navLink" href="#">HOME</a></li>
+            <li class="sideMenu"><a class="navLink" href="./about.html">ABOUT</a></li>
+            <li class="sideMenu"><a class="navLink" href="./gallery.html">GALLERY</a></li>
+        </ul>
+    </div>
+    <!--Slideshow-->
+    <div class="slide-container">
+        <img class="mySlides" src="./images/image1.jpg">
+        <img class="mySlides" src="./images/image2.jpg">
+        <img class="mySlides" src="./images/image3.jpg">
+        <img class="mySlides" src="./images/image4.jpg">
+        <button class="left-arrow" onclick="plusDivs(-1)"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="right-arrow" onclick="plusDivs(1)"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="container">      
+        <h1>Lore Olympus Webtoon: Jaw Dropping Seen on Media</h1>
+        <p>Dive into the intricate world of "Lore Olympus," where ancient myths collide with modern story, exploring power, love, trauma, and identity in captivating ways.</p>
+
+        <img class="mainImage" src="./images/main.png" alt="main image">
+    <p>Rachel Smith’s Lore Olympus webtoon is a modern retelling of the ancient Greek myth of Hades and Persephone, has taken the digital comics world by storm. This article explores the complex world of “Lore Olympus,” providing details on the Lore Olympus characters, major themes, and the impact this beloved series has on readers.</p>
+
+    <h2>Major Characters in Lore Olympus Webtoon</h2>
+    <div class="character">
+        <div class="image-container">
+            <img src="./images/hades.webp" alt="hades">
+            <div class="info">
+                <h3>Hades</h3>
+                <p>God of Underworld</p>
+                <p>Handsome blue man in a business suit</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./images/persephone.webp" alt="Persephone">
+            <div class="info">
+                <h3>Persephone</h3>
+                <p>Goddess of Spring</p>
+                <p>Pink skin and a generous heart</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./images/zeus.webp" alt="zeus">
+            <div class="info">
+                <h3>Zeus</h3>
+                <p>King of the Gods</p>
+                <p>Yellow skin man with long, straight hair.</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./images/poseidon.webp" alt="poseidon">
+            <div class="info">
+                <h3>Poseiden</h3>
+                <p>God of the Sea</p>
+                <p>Green skin with long, wavy hair</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./images/eros.webp" alt="eros">
+            <div class="info">
+                <h3>Eros</h3>
+                <p>God of Love</p>
+                <p>Strong, maroon young man</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>Minor Lore Olympus Characters</h2>
+    <div class="character">
+        <div class="image-container">        
+            <img src="./images/hermes.webp" alt="hermes">
+            <div class="info">
+                <h3>Hermes</h3>
+                <p>God of speed Travel</p>
+                <p>Red skinned athletic man</p>
+            </div>
+        </div>       
+        <div class="image-container">
+            <img src="./images/apollo.webp" alt="apollo">
+            <div class="info">
+                <h3>Apollo, the Sun</h3>
+                <p>God of music and prophecy</p>
+                <p>Dark red, strong man (antagonist)</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./images/artemis.webp" alt="artemis">
+            <div class="info">
+                <h3>Artemis</h3>
+                <p>Goddess of hunt</p>
+                <p>Robust, dark-red tomboy</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./images/demeter.webp" alt="demeter">
+            <div class="info">
+                <h3>Demeter</h3>
+                <p>The harvest god</p>
+                <p>Tall, green woman with long red hair.</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./images/ares.webp" alt="ares">
+            <div class="info">
+                <h3>Ares</h3>
+                <p>God of War</p>
+                <p>Chubby man with red eyes</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>Final Words for Lore Olympus</h2>
+    <p>“Lore Olympus” is not a retelling of modern Greek mythology; It is a beautiful tapestry of interlocking stories that explore deep themes of power, love, trauma, and identity. Rachel Smith’s vibrant art and nuanced storytelling have created a world that deeply affects readers, offering entertainment and insight. Let us know in the comments below what you think about the modern re-telling of Greek mythology. </p>
+    <button class="read">Read more...</button>
+    </div>
+    <div class="credit">Made by Shubham Singh</div>
+    <script src="./index.js"></script>
+</body>
+</html>
